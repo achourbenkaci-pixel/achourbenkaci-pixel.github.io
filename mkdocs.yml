@@ -1,45 +1,42 @@
 site_name: Maritime Academy - Achour Benkaci
 
-site_description: Maritime engineering and technical management courses
+site_description: Maritime Engineering and Technical Management Courses
 
 theme:
-name: material
-language: en
-palette:
-- scheme: default
-primary: blue
-accent: cyan
-- scheme: slate
-primary: blue
-accent: cyan
-features:
-- navigation.tabs
-- navigation.sections
-- navigation.expand
-- search.highlight
-- search.suggest
-- content.code.copy
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: blue
+      accent: cyan
+    - scheme: slate
+      primary: blue
+      accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+    - content.code.copy
 
 nav:
-
-* Home: docs/index.md
-* Introduction to Shipping: docs/courses/introduction-shipping.md
-* Flag State Control: docs/courses/flag-state-control.md
-* Classification Societies: docs/courses/classification.md
-* Recognized Organizations: docs/courses/ro.md
-* Port State Control: docs/courses/psc.md
-* Maintenance: docs/courses/maintenance.md
-* Energy Management: docs/courses/energy-management.md
-* MARPOL Annex VI: docs/courses/marpol-annex-6.md
-* Exercises: docs/courses/exercises-cases.md
+  - Home: index.md
+  - Introduction to Shipping: courses/introduction-shipping.md
+  - Flag State Control: courses/flag-state-control.md
+  - Classification Societies: courses/classification.md
+  - Recognized Organizations: courses/ro.md
+  - Port State Control: courses/psc.md
+  - Maintenance: courses/maintenance.md
+  - Energy Management: courses/energy-management.md
+  - MARPOL Annex VI: courses/marpol-annex-6.md
+  - Exercises: courses/exercises-cases.md
 
 plugins:
-
-* search
+  - search
 
 markdown_extensions:
-
-* admonition
-* toc:
-  permalink: true
-* tables
+  - admonition
+  - toc:
+      permalink: true
+  - tables
